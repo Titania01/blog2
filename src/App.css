@@ -18,7 +18,7 @@ body {
   color: #282828;
   background-color: rgb(255, 255, 255);
   margin: 0 10rem;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 .Navbar {
@@ -63,4 +63,70 @@ body {
 }
 .Navbar a:hover:after {
   width: 100%;
+}
+
+.spacer {
+  flex-grow: 1;
+}
+
+.Header {
+  padding: 10vh 2rem;
+  font-size: 2rem;
+}
+
+.Header p {
+  max-width: 42rem;
+  margin: auto;
+  font-weight: 500;
+  color: rgb(28, 80, 101);
+}
+
+.Header p span:hover {
+  color: tomato;
+  cursor: pointer;
+}
+
+.Header .tiny {
+  font-size: 0.9rem;
+  color: grey;
+  margin-top: 1rem;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-gap: 1rem;
+}
+
+article {
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+article:hover p.title {
+  color: tomato;
+}
+
+article > img {
+  margin: 0.5rem 2rem 0 2rem;
+  border-radius: 5px;
+  width: 18rem;
+  height: 18rem;
+}
+
+.content > p {
+  margin-left: 1.5rem;
+  font-size: 16px;
+  color: rgb(28, 80, 101);
+}
+
+article .title {
+  font-size: 1.3rem;
+  margin-bottom: 0;
+  font-weight: 500;
+}
+
+article .summary {
+  line-height: 170%;
 }
