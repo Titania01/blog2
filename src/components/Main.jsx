@@ -1,6 +1,8 @@
+import React from "react"
+
 const Main = () => {
   return (
-    <div></div>
+    <div>hello</div>
   )
 }
 
