@@ -81,7 +81,6 @@ function App() {
 
     ]}
       </main>
-      
       <Submain />
       <Footer />
     </div>

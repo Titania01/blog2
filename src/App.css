@@ -18,7 +18,7 @@ body {
   color: #282828;
   background-color: rgb(255, 255, 255);
   margin: 0 10rem;
-  /* height: 100vh; */
+  height: 350vh;
 }
 
 .Navbar {
@@ -129,4 +129,32 @@ article .title {
 
 article .summary {
   line-height: 170%;
+}
+
+.submain {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 59rem;
+
+  /* margin: 0 rem; */
+}
+
+.right,
+.left {
+  background: #fff;
+  height: 20rem;
+  margin: 3rem 4rem;
+}
+
+.black {
+  background: black;
+  height: fit-content;
+  width: fit-content;
+  border-radius: 50%;
+}
+
+Footer {
+  background-color: rgb(245, 248, 246);
+  height: 20rem;
 }
