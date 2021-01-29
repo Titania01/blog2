@@ -59,13 +59,23 @@ function App() {
         summary="There's a lot you can do with react that would be difficult with a traditional design application."
       />,
       <Article 
-      category="Link #"
-      title="Linear: The issue tracking tool you'll enjoy using"
-      pic="https://mattdowney.co/wp-content/uploads/2020/07/img-linear@2x-768x476.jpg"
-      summary="Linear helps streamline software projects, sprints, tasks, and bug tracking"
+        category="Link #"
+        title="Linear: The issue tracking tool you'll enjoy using"
+        pic="https://mattdowney.co/wp-content/uploads/2020/07/img-linear@2x-768x476.jpg"
+        summary="Linear helps streamline software projects, sprints, tasks, and bug tracking"
       />,
-      <Article />,
-      <Article />
+      <Article 
+        pic="https://mattdowney.co/wp-content/uploads/2020/05/ux-design-tools@2x-1536x864.jpg"
+        category="Design"
+        title="The state of UX tools in 2021"
+        summary="For the past few years, creative profesionals have had access to a wide variety of powerful UX design tools."
+      />,
+      <Article 
+        category="Productivity"
+        pic="https://mattdowney.co/wp-content/uploads/2020/04/time-blocking@2x-1536x864.jpg"
+        title="Master your productivity with time blocking"
+        summary="For the past decade, I've been on the lookout for habits and routines that will keep me organized and productive."
+      />
 
 
     ]}
