@@ -2,6 +2,7 @@ import Navbar from './components/Navbar'
 import Article from './components/Article'
 import Header from './components/Header'
 import Footer from './components/Footer'
+import Submain from './components/Submain'
 
 import './App.css';
 
@@ -80,6 +81,8 @@ function App() {
 
     ]}
       </main>
+      
+      <Submain />
       <Footer />
     </div>
   );
