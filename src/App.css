@@ -173,4 +173,12 @@ article .summary {
   background-color: rgb(245, 248, 246);
   height: 20rem;
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6rem 7rem;
+  color: rgb(28, 80, 101);
+}
+
+.one > span > img.last {
+  margin-left: 1rem;
 }
