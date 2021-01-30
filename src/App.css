@@ -135,8 +135,8 @@ article .summary {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 59rem;
-
+  width: 70.35rem;
+  background-color: white;
   /* margin: 0 rem; */
 }
 
@@ -144,9 +144,14 @@ article .summary {
 .left {
   background: #fff;
   height: 20rem;
-  margin: 3rem 4rem;
+  margin: 3rem 5rem;
+  width: 40%;
 }
-
+.line {
+  width: 0.2%;
+  background-color: #f1f4f2;
+  height: 26rem;
+}
 .black {
   background: black;
   height: fit-content;
@@ -154,7 +159,18 @@ article .summary {
   border-radius: 50%;
 }
 
-Footer {
+.blacky {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+}
+
+.blacky > p {
+  padding-left: 2rem;
+}
+
+.Footer {
   background-color: rgb(245, 248, 246);
   height: 20rem;
+  display: flex;
 }
