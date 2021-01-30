@@ -170,7 +170,7 @@ article .summary {
 
 .Footer {
   background-color: rgb(245, 248, 246);
-  height: 20rem;
+  height: 22rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -190,7 +190,39 @@ article .summary {
   cursor: pointer;
 }
 
+.two {
+  position: relative;
+  top: -2;
+}
+
 .two > p {
   line-height: 80%;
   font-weight: 500;
+}
+
+.two > p:hover {
+  cursor: pointer;
+  color: tomato;
+  transition: 1s;
+}
+
+.three > p {
+  font-size: 16px;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  background: tomato;
+  color: #fff;
+  height: 2.5rem;
+  font-weight: 500;
+  border-radius: 1.5rem;
+  width: 9rem;
+  margin-top: 2rem;
+}
+button:focus {
+  outline: none;
 }

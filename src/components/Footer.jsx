@@ -18,7 +18,11 @@ const Footer = () => {
         <p>Contact</p>
         <p>Privacy</p>
       </div>
-      <div className="three"></div>
+      <div className="three">
+        <h4>NEWSLETTER</h4>
+        <p>Join now and get my free e-book, The Business <br/> of Design, where I'll give you five real-world <br/> lessons I learned the hard way while building <br/> my digital agency.</p>
+        <div className="button" >SUBSCRIBE</div>
+      </div>
     </div>
   )
 }
