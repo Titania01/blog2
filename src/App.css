@@ -137,7 +137,7 @@ article .summary {
   justify-content: space-between;
   width: 70.35rem;
   background-color: white;
-  /* margin: 0 rem; */
+  color: rgb(28, 80, 101);
 }
 
 .right,
@@ -162,7 +162,6 @@ article .summary {
 .blacky {
   display: flex;
   align-items: center;
-  /* justify-content: space-between; */
 }
 
 .blacky > p {
@@ -181,4 +180,17 @@ article .summary {
 
 .one > span > img.last {
   margin-left: 1rem;
+}
+
+.one > img {
+  cursor: pointer;
+}
+
+.one > span {
+  cursor: pointer;
+}
+
+.two > p {
+  line-height: 80%;
+  font-weight: 500;
 }

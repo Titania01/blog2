@@ -11,7 +11,13 @@ const Footer = () => {
         <img src="https://mattdowney.co/wp-content/themes/mdv4/img/icon-twitter-footer.svg" alt="" className="last" />
         </span>
       </div>
-      <div className="two"></div>
+      <div className="two">
+        <h4>EXPLORE</h4>
+        <p>About</p>
+        <p>Blog</p>
+        <p>Contact</p>
+        <p>Privacy</p>
+      </div>
       <div className="three"></div>
     </div>
   )
